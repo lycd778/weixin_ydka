@@ -158,7 +158,10 @@ function receiveText($userObj) {
 			case "软件" :
 			case "产品" :
 			case "安装" :
-				$newsContent = "<a href=\"http://shouji.baidu.com/soft/item?docid=7992036&from=landing&f=search_app_%E5%BF%83%E8%84%8F%E5%8D%AB%E5%A3%AB%40list_1_title%401%40search_sug_app\">下载心脏卫士APP</a>
+				$newsContent = "<a href=\"http://fusion.qq.com/app_download?appid=1102255388&platform=qzone&via=QZ.MOBILEDETAIL.QRCODE&u=3046917960\">心脏卫士安卓</a> 
+
+<a href=\"https://itunes.apple.com/cn/app/%E5%BF%83%E8%84%8F%E5%8D%AB%E5%A3%AB/id1198463508?mt=8\">心脏卫士IOS</a>
+
 <a href=\"http://shouji.baidu.com/software/item?docid=7990849&f=sug@software\">下载6分钟步行测试APP</a>​​";
 				$resultStr = response_text ( $userObj, $newsContent );
 				break;
@@ -169,7 +172,9 @@ function receiveText($userObj) {
 			case "客户端心脏卫士" :
 			case "APP卫士" :
 			case "APP心" :
-				$newsContent = "<a href=\"http://shouji.baidu.com/soft/item?docid=7992036&from=landing&f=search_app_%E5%BF%83%E8%84%8F%E5%8D%AB%E5%A3%AB%40list_1_title%401%40search_sug_app\">下载心脏卫士APP</a>​​";
+				$newsContent = "<a href=\"http://fusion.qq.com/app_download?appid=1102255388&platform=qzone&via=QZ.MOBILEDETAIL.QRCODE&u=3046917960\">心脏卫士安卓</a> 
+
+<a href=\"https://itunes.apple.com/cn/app/%E5%BF%83%E8%84%8F%E5%8D%AB%E5%A3%AB/id1198463508?mt=8\">心脏卫士IOS</a>​​​​";
 				$resultStr = response_text ( $userObj, $newsContent );
 				break;
 			case "6分钟步行测试" :

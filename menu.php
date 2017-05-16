@@ -95,9 +95,14 @@ function response_click($userObj, $EventKey) {
                         $resultStr = response_text ( $userObj, $newsContent );
 			break;
 		case "xapp" :
-			$newsContent = "<a href=\"http://app.qq.com/#id=detail&appid=1102255388\">下载心脏卫士APP</a>
+			$newsContent = "<a href=\"http://fusion.qq.com/app_download?appid=1102255388&platform=qzone&via=QZ.MOBILEDETAIL.QRCODE&u=3046917960\">心脏卫士安卓</a> 
+
+<a href=\"https://itunes.apple.com/cn/app/%E5%BF%83%E8%84%8F%E5%8D%AB%E5%A3%AB/id1198463508?mt=8\">心脏卫士IOS</a>
+
 <a href=\"http://app.qq.com/#id=detail&appid=1104844371\">下载6分钟步行测试APP</a>
+
 <a href=\"http://app.qq.com/#id=detail&appid=1104916648\">下载运动记录APP</a>
+
 <a href=\"http://app.qq.com/#id=detail&appid=1104841587\">下载评估盒子APP</a>";
 			$resultStr = response_text ( $userObj, $newsContent );
 			break;
